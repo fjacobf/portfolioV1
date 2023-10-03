@@ -55,7 +55,27 @@ section{
     background: linear-gradient(117deg, black 0%, #1E1E1E 84%);
     display: flex; 
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#projects, #contact{
+    flex-direction: column;
+    justify-content:center
+}
+
+#contact{
+    padding: 0 21.8rem
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form > *{
+    height: 3rem;
+    margin: 0.1rem 0;
 }
 
 img{
