@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+section{
+    height: 100vh;
+    background: linear-gradient(117deg, black 0%, #1E1E1E 84%);
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
