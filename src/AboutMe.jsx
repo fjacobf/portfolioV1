@@ -25,7 +25,7 @@ export function AboutMe({ about, img1 }) {
             {
               about.technologies.map( (item, index) => (
                 <li key={index}>
-                  <img width="70" src={`./src/assets/${item}.png`} alt={item} title={item} />
+                  <img width="70" src={`./assets/${item}.png`} alt={item} title={item} />
                 </li>
               ))}
         </ul>             
