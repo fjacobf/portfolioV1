@@ -1,5 +1,5 @@
 import {React, useRef, useEffect} from "react";
-import react from "./assets/react.png";
+import "./assets";
 export function AboutMe({ about, img1 }) {
   const logosRef = useRef(null);
 
@@ -11,7 +11,7 @@ export function AboutMe({ about, img1 }) {
     }
   }, []);
 
-  return <section id="about me" className='p-48'>
+  return <section id="about meee" className='p-48'>
       <div className='flex flex-col w-1/2'>
         <h1>About Me</h1>
         <p>{about.presentation}</p>
@@ -25,7 +25,7 @@ export function AboutMe({ about, img1 }) {
             {
               about.technologies.map( (item, index) => (
                 <li key={index}>
-                  <img width="70" src={`${import.meta.env.VITE_PUBLIC_URL}/src/assets/${item}.png`} alt={item} title={item} />
+                  <img width="70" src={item.image} alt={item} title={item.name} />
                 </li>
               ))}
         </ul>             
