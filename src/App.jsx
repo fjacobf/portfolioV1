@@ -12,8 +12,8 @@ function App() {
     <Navbar     />
 
     <div id="home" className='bg-high-contrast bg-cover h-[100vh] flex justify-center flex-col items-center'>
-      <h1>I am Felipe</h1>
-      <h2>Developer</h2>
+      <h1 className='text-9xl font-extrabold'>Hi! I'm <span className='bg-[linear-gradient(to_right,theme(colors.amber.500),theme(colors.amber.300),theme(colors.violet.400),theme(colors.violet.500),theme(colors.violet.400),theme(colors.amber.300),theme(colors.amber.500))] animate-gradient bg-[length:200%_auto] bg-clip-text text-transparent'>Felipe!</span></h1>
+      <h2 className='text-7xl'>Developer</h2>
     </div>
 
     <AboutMe   about={about} img1={img1}  />
