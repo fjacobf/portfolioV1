@@ -11,17 +11,13 @@ export default {
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
+        'gradient': 'gradient 8s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
-        }
-      },
-      animation: {
-        'gradient': 'gradient 8s linear infinite',
-      },
-      keyframes: {
+        },
         'gradient': {
           to: { 'background-position': '200% center' },
         }

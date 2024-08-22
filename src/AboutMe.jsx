@@ -3,7 +3,7 @@ import React from "react";
 
 export function AboutMe({ about, img1 }) {
 
-  return <section id="about me" className=' flex flex-col-reverse md:p-48'>
+  return <section id="about me" className=' flex flex-col-reverse md:p-48 md:flex-row'>
       <div className='flex flex-col w-1/2'>
         <h1>About Me</h1>
         <p>{about.presentation}</p>
