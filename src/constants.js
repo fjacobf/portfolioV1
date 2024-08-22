@@ -8,4 +8,14 @@ export const projects = [
     "description": "",
     "technologies": ["react", "html5", "tailwind", "javascript"],
   },
+  {
+    "title": "Dynamicity",
+    "description": "",
+    "technologies": ["react", "html5", "tailwind", "javascript"],
+  },
+  {
+    "title": "Dynamicity",
+    "description": "",
+    "technologies": ["react", "html5", "tailwind", "javascript"],
+  },
 ]

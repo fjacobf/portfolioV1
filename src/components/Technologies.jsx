@@ -1,13 +1,13 @@
 import {React, useRef, useEffect} from "react";
-import css from './assets/css.png'
-import html5 from './assets/html5.png'
-import javascript from './assets/javascript.png'
-import jquery from './assets/jquery.png'
-import nodejs from './assets/nodejs.png'
-import postgresql from './assets/postgresql.png'
-import react from './assets/react.png'
-import sass from './assets/sass.png'
-import tailwind from './assets/tailwind.png'
+import css from '../assets/css.png'
+import html5 from '../assets/html5.png'
+import javascript from '../assets/javascript.png'
+import jquery from '../assets/jquery.png'
+import nodejs from '../assets/nodejs.png'
+import postgresql from '../assets/postgresql.png'
+import react from '../assets/react.png'
+import sass from '../assets/sass.png'
+import tailwind from '../assets/tailwind.png'
 export function Technologies({
 }) {
   const logosRef = useRef(null);

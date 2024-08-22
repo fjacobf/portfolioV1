@@ -1,7 +1,8 @@
-import { Technologies } from './Technologies';
+import { Technologies } from '../components/Technologies';
 import React from "react";
+import img1 from '../assets/IMG_2142.jpg';
 
-export function AboutMe({ about, img1 }) {
+export function AboutMe({ about }) {
 
   return <section id="about me" className=' flex flex-col-reverse md:p-48 md:flex-row'>
       <div className='flex flex-col w-1/2'>
