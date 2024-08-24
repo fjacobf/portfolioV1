@@ -1,8 +1,10 @@
 import React from "react";
-export function ContactMe({}) {
-  return <section id="contact" className='flex-col justify-center'>
+import { SectionWrapper } from "../hoc";
+const ContactMe = () => {
+  return (<>
       <h1>Contact Me</h1>
      
-    </section>;
+    </>)
 }
-  
+
+export default SectionWrapper(ContactMe, "contact")
