@@ -8,8 +8,8 @@ import { about } from '../constants';
 
 const AboutMe = () => {
   return (
-    <>
-    <div className='flex flex-col w-1/2 h-screen p-32 flex justify-between'>
+    <div className='h-screen w-screen flex items-center justify-around flex-col-reverse py-16 sm:flex-row'>
+    <div className='flex flex-col w-1/2 md:h-screen md:p-32 md:justify-between'>
       <div className='content'>
         <motion.div variants={textVariant()}>
             <h1 className='text-6xl my-4'>About Me</h1>
@@ -26,10 +26,10 @@ const AboutMe = () => {
 
       <Technologies className=" align-bottom"  />
     </div>
-    <div className='flex w-1/2 justify-center'>
+    <div className='flex justify-center'>
       <img src={img1} alt="personal photo" className=' aspect-square w-1/2 rounded-full border-solid border-white border-4 object-cover object-top' />
     </div>
-    </>
+    </div>
   )
 }
 
