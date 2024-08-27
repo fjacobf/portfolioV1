@@ -1,13 +1,28 @@
-import {instagram, github, gmail, linkedin} from '../assets';
+import {instagram, github, gmail, linkedin, juni, cetaps, interup, dynamicity} from '../assets';
 export const about = {
   "presentation": "Hi! I am Felipe, a computer engineering student at University of Porto. I´ve been studying programming since high school and love creating new things!"
 }
 
 export const projects = [
   {
-    title: "Dynamicity",
-    description: "",
-    technologies: ["react", "html5", "tailwind", "javascript"],
+    name: "Dynamicity",
+    image: dynamicity,
+    description: "Web application designed to create and edit maps.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    source_code_link: "https://github.com/fojacob/Dynamicity" 
   },
 ]
 
@@ -34,7 +49,7 @@ export const contacts = [
 export const experiences = [
   {
     company_name: "JuniFeup",
-    icon: instagram,
+    icon: juni,
     iconBg: "black",
     position: "Software Engineer",
     date: "November 2023 - Present",
@@ -43,8 +58,8 @@ export const experiences = [
   },
   {
     company_name: "Cetaps",
-    icon: instagram,
-    iconBg: "black",
+    icon: cetaps,
+    iconBg: "#84001c",
     position: "Software Engineer",
     date: "April 2023 - November 2023",
     description: ["Work in a database repository with over 30.000 literary works, improving its filters and creating an interface to navigate it.",
@@ -56,7 +71,7 @@ export const experiences = [
   },
   {
     company_name: "InterUP",
-    icon: instagram,
+    icon: interup,
     iconBg: "black",
     position: "Web Developer",
     date: "Jul 2022 - April 2023",
