@@ -53,7 +53,8 @@ header .nav-btn {
 	border: none;
 	outline: none;
 	color: var(--textColor);
-	visibility: hidden;
+	display: none;
+	position: absolute;
 	opacity: 0;
 	font-size: 1.8rem;
 }
@@ -66,7 +67,9 @@ nav {
 
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
-		visibility: visible;
+		display: block;
+		position: relative;
+		z-index: -10;
 		opacity: 1;
 	}
 

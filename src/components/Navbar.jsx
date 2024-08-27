@@ -14,7 +14,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className=' backdrop-blur-sm fixed flex flex-row justify-between w-[100vw] py-3 px-4 z-10'>
+    <header className='backdrop-blur-sm fixed flex flex-row justify-between w-[100vw] py-3 px-10 z-10'>
       <h1 className="text-3xl sm:text-5xl">Felipe Jacob</h1>
       <nav ref={navRef} className='flex items-center'>
         <ul className='w-[50vw] lg:flex flex-row justify-between items-center text-center'>
