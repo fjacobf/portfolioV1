@@ -6,6 +6,8 @@ import juni from './juni.png'
 import cetaps from './cetaps.png'
 import interup from './interup.png'
 import dynamicity from './metro_do_porto.jpeg'
+import feupbook from './feupbook.png'
+import guuri from './guuri.png'
 export {
   instagram,
   github,
@@ -14,6 +16,8 @@ export {
   juni,
   cetaps,
   interup,
-  dynamicity
+  dynamicity,
+  feupbook,
+  guuri
 
 };

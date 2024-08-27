@@ -8,20 +8,22 @@ import { about } from '../constants';
 
 const AboutMe = () => {
   return (
-    <div className='h-screen w-screen flex items-center justify-around flex-col-reverse py-16 sm:flex-row'>
-    <div className='flex flex-col w-1/2 md:h-screen md:p-32 md:justify-between'>
+    <div className='sm:h-screen w-screen flex items-center justify-around flex-col-reverse py-16 sm:flex-row'>
+    <div className='flex flex-col w-full px-3 md:w-1/2 md:h-screen md:p-32 md:justify-between'>
       <div className='content'>
         <motion.div variants={textVariant()}>
             <h1 className='sm:text-6xl text-4xl my-4'>About Me</h1>
         </motion.div>
         
-        
-        <motion.p
+        {about.map((topic, index)=>(
+          <motion.p
+          key={index}
           variants={fadeIn("","",0.5,1)}
-          className="mb-6 sm:text-lg text-md"
+          className="mb-6 sm:text-lg text-md text-justify"
           >
-          {about.presentation}
+          {topic}
         </motion.p>
+        ))}
       </div>
 
       <motion.div variants={fadeIn("", "",0.5, 1)}>

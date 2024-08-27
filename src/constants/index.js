@@ -1,20 +1,18 @@
-import {instagram, github, gmail, linkedin, juni, cetaps, interup, dynamicity} from '../assets';
-export const about = {
-  "presentation": "Hi! I am Felipe, a computer engineering student at University of Porto. I´ve been studying programming since high school and love creating new things!"
-}
+import {instagram, github, gmail, linkedin, juni, cetaps, interup, dynamicity, feupbook, guuri} from '../assets';
+export const about = ["Hi! I'm Felipe, a highly adaptable and diligent developer. I've worked with many teams and with different technologies before which granted me experience in working with people and developing projects.","Creativity has always been in my personality and I believe that software development is the best way I found to exercise it. For me, it is wonderful to see how you can create different solutions for the same problem and overcome challenges in the most unexpected way.","I'm seeking opportunities to apply my skills in a professional setting, gaining experience, and making meaningful contributions."]
 
 export const projects = [
   {
     name: "Dynamicity",
     image: dynamicity,
-    description: "Web application designed to create and edit maps.",
+    description: "Web application designed to create and edit maps. You can load a geoJson file, add new structures and edit the structures on it.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "leaftlet",
         color: "green-text-gradient",
       },
       {
@@ -23,6 +21,47 @@ export const projects = [
       },
     ],
     source_code_link: "https://github.com/fojacob/Dynamicity" 
+  },
+  {
+    name: "FeupBook",
+    image: feupbook,
+    description: "A fullstack social network project, Similar to instagram, it has a infinite feed, comment section, follow and likes system.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+    ],
+    source_code_link: "https://github.com/fojacob/feupbook" 
+  },
+  {
+    name: "Guuri",
+    image: guuri,
+    description: "A mobile aplication destined to find common places to make your trip feel like home. Integrated with google maps API and firebase.",
+    tags: [
+      {
+        name: "Flutter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+  
+    ],
+    source_code_link: "https://github.com/FEUP-LEIC-ES-2022-23/2LEIC01T1" 
   },
 ]
 
