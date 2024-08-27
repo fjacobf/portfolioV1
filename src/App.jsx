@@ -3,6 +3,7 @@ import { Hero } from './sections/Hero';
 import ContactMe from './sections/ContactMe.jsx';
 import AboutMe from './sections/AboutMe.jsx';
 import Navbar from './components/Navbar.jsx';
+import Experience from './sections/Experiences.jsx';
 import {BrowserRouter} from 'react-router-dom';
 import './App.css'
 
@@ -10,15 +11,17 @@ function App() {
   return (
     <BrowserRouter>
 
-    <Navbar     />
+    <Navbar/>
 
-    <Hero     />
+    <Hero/>
 
-    <AboutMe />
+    <AboutMe/>
 
-    <Projects  />
+    <Experience/>
 
-    <ContactMe     />
+    <Projects/>
+
+    <ContactMe/>
 
     </BrowserRouter>
   )

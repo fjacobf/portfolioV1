@@ -8,6 +8,7 @@ import postgresql from '../assets/postgresql.png'
 import react from '../assets/react.png'
 import sass from '../assets/sass.png'
 import tailwind from '../assets/tailwind.png'
+
 export function Technologies({
 }) {
   const logosRef = useRef(null);
