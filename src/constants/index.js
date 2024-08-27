@@ -20,7 +20,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    source_code_link: "https://github.com/fojacob/Dynamicity" 
+    source_code_link: "https://github.com/fjacobf/Dynamicity" 
   },
   {
     name: "FeupBook",
@@ -44,7 +44,7 @@ export const projects = [
         color: "blue-text-gradient",
       },
     ],
-    source_code_link: "https://github.com/fojacob/feupbook" 
+    source_code_link: "https://github.com/fjacobf/feupbook" 
   },
   {
     name: "Guuri",
@@ -67,20 +67,15 @@ export const projects = [
 
 export const contacts = [
   {
-    name: "Instagram",
-    icon: instagram,
-    username: "@fjacob__",
-    link: "https://www.instagram.com/fjacob__/"
-  },{
     name: "LinkedIn",
     icon: linkedin,
-    username: "/fjjferreira",
-    link: "https://www.linkedin.com/in/fjjferreira/"
+    username: "/fjacobf",
+    link: "https://www.linkedin.com/in/fjacobf/"
   },{
     name: "Github",
     icon: github,
-    username: "fojacob",
-    link: "https://github.com/fojacob"
+    username: "fjacobf",
+    link: "https://github.com/fjacobf"
   },{
     name: "Gmail",
     icon: gmail,
