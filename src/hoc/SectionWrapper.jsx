@@ -10,7 +10,7 @@ const SectionWrapper = (Component, idName) =>
       initial="hidden"
       whileInView="show"
       viewport={{once:true, amount: 0.25}}
-      className="bg-transparent z-0"
+      className="bg-transparent z-0 overflow-hidden"
       >
         <Component/>
       </motion.section>

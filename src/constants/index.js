@@ -30,18 +30,22 @@ export const contacts = [
   {
     name: "Instagram",
     icon: instagram,
+    username: "@fjacob__",
     link: "https://www.instagram.com/fjacob__/"
   },{
     name: "LinkedIn",
     icon: linkedin,
+    username: "/fjjferreira",
     link: "https://www.linkedin.com/in/fjjferreira/"
   },{
     name: "Github",
     icon: github,
+    username: "fojacob",
     link: "https://github.com/fojacob"
   },{
     name: "Gmail",
     icon: gmail,
+    username: "felipe.jacob.ferreira\n@gmail.com",
     link: "mailto:felipe.jacob.ferreira@gmail.com"
   }
 ]

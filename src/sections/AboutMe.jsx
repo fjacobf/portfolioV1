@@ -12,13 +12,13 @@ const AboutMe = () => {
     <div className='flex flex-col w-1/2 md:h-screen md:p-32 md:justify-between'>
       <div className='content'>
         <motion.div variants={textVariant()}>
-            <h1 className='text-6xl my-4'>About Me</h1>
+            <h1 className='sm:text-6xl text-4xl my-4'>About Me</h1>
         </motion.div>
         
         
         <motion.p
           variants={fadeIn("","",0,1,1)}
-          className="mb-6 text-lg"
+          className="mb-6 sm:text-lg text-md"
           >
           {about.presentation}
         </motion.p>
