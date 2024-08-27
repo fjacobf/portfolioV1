@@ -17,18 +17,20 @@ const AboutMe = () => {
         
         
         <motion.p
-          variants={fadeIn("","",0,1,1)}
+          variants={fadeIn("","",0.5,1)}
           className="mb-6 sm:text-lg text-md"
           >
           {about.presentation}
         </motion.p>
       </div>
 
-      <Technologies className=" align-bottom"  />
+      <motion.div variants={fadeIn("", "",0.5, 1)}>
+        <Technologies className=" align-bottom"  />
+      </motion.div>
     </div>
-    <div className='flex justify-center'>
+    <motion.div variants={fadeIn("left", "", 0.5, 1)} className='flex justify-center'>
       <img src={img1} alt="personal photo" className=' aspect-square w-1/2 rounded-full border-solid border-white border-4 object-cover object-top' />
-    </div>
+    </motion.div>
     </div>
   )
 }
