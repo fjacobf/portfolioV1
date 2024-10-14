@@ -99,9 +99,9 @@ export const experiences = [
     icon: cetaps,
     iconBg: "#84001c",
     position: "Software Engineer",
-    date: "April 2023 - November 2023",
+    date: "May 2024 - Present",
     description: ["Work in a database repository with over 30.000 literary works, improving its filters and creating an interface to navigate it.",
-      "Develop websites in wordpress with PHP and Javascript.",
+      "Develop websites in Wordpress and Drupal.",
       "Create scripts in Python and R to process analytical data, implement text and image analysis and AI solutions.",
       "Technologies: Wordpress, Python, R, PHP, Javascript, CSS, MySql."
       ],
